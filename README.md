@@ -1,13 +1,17 @@
 jquery.countdown.js
 ===================
 
+A utility that ticks down to a spefified date/time, replacing the text of
+the selected element set.
 
+When constructing the `end` argument, follow the
+[Javascript Date](http://www.w3schools.com/js/js_obj_date.asp) conventions.
 
 ## Usage:
 
 <pre>
 $('#countdown_days').countdown({
-    end: new Date("January 11, 2014"),
+    end: new Date("January 11, 2014 16:20:00"),
     format: "%d days, %h:%m:%s",
     afterEventMessage: 0
     });
