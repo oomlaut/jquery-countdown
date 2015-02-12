@@ -7,6 +7,8 @@ the selected element set.
 When constructing the `end` argument, follow the
 [Javascript Date](http://www.w3schools.com/js/js_obj_date.asp) conventions.
 
+[![endorse](https://api.coderwall.com/oomlaut/endorsecount.png)](https://coderwall.com/oomlaut)
+
 ## Usage:
 
 <pre>
